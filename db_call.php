@@ -3,8 +3,6 @@ function db_call($table='',$query=''){
     global $debug_flag;
     if ($debug_flag) {echo "<p debug='fun db_call:[". $table ."]".$query."'></p>";}
     $servername = "localhost";
-    $username = "tanach_readonly_user";
-    $password = "vGnt#rXGi0pV@7M%Cor";
     $dbname = "verses";
     $charset = 'utf8';
 
