@@ -1,0 +1,50 @@
+function acv($osis){ //all_citation_verse($osis) {#array($hebcit,$fulltext,$url_output,$engcit);:acv.php
+function addme($cookie_name,$cookie_value,$life=1){ // 1 day:general.php
+function all_sedarim_verse($verse_stream, $highlight_key=0){:all_sedarim_verse.php
+function button_wrap($hebcit,$pasuk,$url,$engcit){:button_wrap.php
+function checkme($cookie_name){:general.php
+function citation_call($cit,$high=0){:calls.php
+function cit_next_chapter($cit=""){:cit_next_previous.php
+function cit_next_verse($cit=""){:cit_next_previous.php
+function cit_previous_chapter($cit=""){:cit_next_previous.php
+function cit_previous_verse($cit=""){:cit_next_previous.php
+function cit_push_buttons($cit=""){//$hebbook,$shortbook,$ch,$vr){#:cit_push_buttons.php
+function clean_url(){#url without query:general.php
+function convertor($key=0,$cit="",$osis=false){:convertor.php
+function db_call($table='',$query=''){:db_call.php
+function eng_verse($key){#eng_citation:eng_verse.php
+function fix_peh_samach($data,$mesora=true){#verse without 'ײ' 'ױ':fix_peh_samach.php
+function full_url( $s, $use_forwarded_host = false ){#url source:general.php
+function GoToNow ($url){:random_key.php
+function hebrewize($book_code,  $chapter_number, $verse_number, $seder=false){:hebrewize.php
+function key_like_call($key){:calls.php
+function make_seed(){#seed:random_key.php
+function next_chapter($key=0,$cit=""){:next_previous.php
+function next_verse($key=0,$cit=""){:next_previous.php
+function number2hebrew($num, $sofiot=false) {:gematria.php
+function number_check($int){#true if number:general.php
+function post_flags($flag=false){:general.php
+function previous_chapter($key=0,$cit=""){:next_previous.php
+function previous_verse($key=0,$cit=""){:next_previous.php
+function print_details($key,$d=""){:calls.php
+function publish_html($key=0,$hebcit,$dv,$url_output,$engcit,$pdv="",$highlight=false){:publish_html.php
+function push_buttons($key=0){//$hebbook,$shortbook,$ch,$vr,$key){#:push_buttons.php
+function random_key(){#random:random_key.php
+function sedarim_verse($verse_stream){:sedarim_verse.php
+function shorteng_bookcode($book=""){#bookcode:booklookup.php
+function show_book($bookkey,$fn){#bookname:booklookup.php
+function show_extra($key,$raw = 1,$table = 'never empty', $title_string = '<p dir="ltr" lang="en">Extra:show_extra.php
+function show_fullsedarim($key){#$text ($book,$chap,$verse):show_sedarim.php
+function show_sedarim($key){#book,$chap,$verse:show_sedarim.php
+function show_transilation($key, $cit, $lang, $version, $display=0, $url="https:show_transilation.php
+function show_translit($verse,$raw = 1 ,$title_string = '<p dir="ltr" lang="en">The Transliteration is:show_translit.php
+function show_verse($key){#book,chap,vr,verse:show_verse.php
+function show_word($key = 0,$word = 0,$comment_list=all_comments,$sqlwhereqwery=''){:verse_get.php
+function single_verse($osis){:single_verse.php
+function sv($key=0,$book_code=0, $chapter_number=0, $chapter_end=0, $verse_number=0, $verse_end=0){:acv.php
+function url_create($cit,$text,$in_p_text="",$highlight=false){:publish_html.php
+function url_origin( $s, $use_forwarded_host = false ){#url parsed:general.php
+function verse_get($key=0,$book_code=0, $chapter_start=0, $chapter_end=0, $verse_start=0, $verse_end=0){:verse_get.php
+function vfix($verse){:verse_get.php
+function vprint($verse){:verse_get.php
+function vshow($verse){:verse_get.php

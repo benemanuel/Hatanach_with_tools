@@ -1,0 +1,17 @@
+../../../db_call.php
+../../../show_comments_full.php
+../../../show_extra.php
+../../create/booknames.php
+../header.php
+abc.php
+check_verse_extras.php
+clean_word.php
+eof.php
+f.php
+json_head_tail.php
+mnote.php
+show_json.php
+show_single_havarot.php
+show_word.php
+tav.php
+utf8toUnicode.php

@@ -1,0 +1,61 @@
+https://hatanach.geulah.org.il/verse/neuvo/?verse=Deut8:16
+some buttons not working
+
+Previous Chapter
+Previous Verse
+Full Chapter
+Next Verse
+Next Chapter
+
+only Next Verse works
+
+            <li class="tooltip expand"  data-title="Previous Chapter">
+            <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=-1" target="_blank" class="previous verse">&#9654;</a></li>
+            <li class="tooltip expand"  data-title="Previous Verse">
+            <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=" target="_blank" class="previous chapter">&#9654;פרק הקודם</a></il>
+            <li class="tooltip expand"  data-title="Full Chapter">
+            <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=-1&highlight=" target="_blank" class="full chapter"> ספר:0  פרק:</a></li>
+            <li class="tooltip expand"  data-title="Next Verse">
+            <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=Deut8:17" target="_blank" class="next verse">&#9664;</a></li>
+            <li class="tooltip expand"  data-title="Next Chapter">
+            <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=" target="_blank" class="next chapter">פרק הבא&#9664;</a></li>
+
+https://hatanach.geulah.org.il/verse/neuvo/?random ==>
+https://hatanach.geulah.org.il/verse/neuvo/?key=153960&random_call=true&date=1680186589
+Full Chapter BAD ?cit=-1&highlight=
+
+ <li class="tooltip expand"  data-title="Previous Chapter">
+        <a href="https://hatanach.geulah.org.il/verse/neuvo/?key=153950" target="_blank" class="previous verse">&#9654;</a></li>
+        <li class="tooltip expand"  data-title="Previous Verse">
+        <a href="https://hatanach.geulah.org.il/verse/neuvo/?key=153720" target="_blank" class="previous chapter">&#9654;פרק הקודם</a></il>
+        <li class="tooltip expand"  data-title="Full Chapter">
+        <a href="https://hatanach.geulah.org.il/verse/neuvo/?cit=-1&highlight=" target="_blank" class="full chapter"> ספר:0  פרק:</a></li>
+        <li class="tooltip expand"  data-title="Next Verse">
+        <a href="https://hatanach.geulah.org.il/verse/neuvo/?key=153970" target="_blank" class="next verse">&#9664;</a></li>
+        <li class="tooltip expand"  data-title="Next Chapter">
+        <a href="https://hatanach.geulah.org.il/verse/neuvo/?key=154440" target="_blank" class="next chapter">פרק הבא&#9664;</a></li>
+
+https://hatanach.geulah.org.il/verse/neuvo/?key=153960
+withOUT &random_call=true&date=1680186589
+Full Chapter BAD ?cit=-1&highlight=
+
+
+https://hatanach.geulah.org.il/verse/neuvo/?cit=Zech3:1-Zech3:4&colored
+verse wrong
+<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?key=-2'/>verse</a>
+
+https://hatanach.geulah.org.il/verse/neuvo/?key=210
+all works
+Previous Chapter
+Previous Verse
+Full Chapter
+Next Verse
+Next Chapter
+
+
+
+#==> functions.txt <==
+grep function  *.php |grep -v clipboard|awk -F: '{print  $2 ":" $1}'|sort --ignore-case >  functions.txt
+
+#==> include.txt <==
+grep incl *.php|awk -F\: '{print $2}'|grep -v \#|grep -v //|grep -v "/\*"| sed -e 's/^[ \t]*//'|sort|uniq > include.txt

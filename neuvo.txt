@@ -1,0 +1,22 @@
+abc.php:        $file_name = "https://hatanach.geulah.org.il/verse/neuvo/".$output;
+abc.php:        echo  "<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/".$output."'/>". $title."</a><br>";
+abc_save.php:    echo  "<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/".$output."'/>". $cit_string."</a><br>";
+acv.php:if (!defined('home_url')) define('home_url',"https://hatanach.geulah.org.il/verse/neuvo/");
+acv.php:    if (!defined('home_url')) define('home_url',"https://hatanach.geulah.org.il/verse/neuvo/");
+all_sedarim_verse.php:    $citurl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?verse=".$cit."'/>(".$cit.")</a>";
+all_sedarim_verse.php:    $hebciturl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?verse=".$cit."'/>".$hebcitation."</a>";
+all_sedarim_verse.php:    $keyurl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?key=".$key."'/>VerseKey:".$key."</a>";
+all_sedarim_verse.php:         $high_url="https://hatanach.geulah.org.il/verse/neuvo/?verse=" . $cit;
+cit_push_buttons.php:            if (!defined('cURL')) define('cURL',"https://hatanach.geulah.org.il/verse/neuvo/?cit=");
+header.php:  <script defer data-domain="hatanach.geulah.org.il/verse/neuvo" src="https://plausible.geulah.org.il/js/plausible.js"></script>
+index.php:      $target="https://hatanach.geulah.org.il/verse/neuvo/?";
+publish_html.php:    if (!defined('home_url')) define('home_url','https://hatanach.geulah.org.il/verse/neuvo/');
+publish_html.php:        //$home_url='https://hatanach.geulah.org.il/verse/neuvo/';
+push_buttons.php:        $cURL="https://hatanach.geulah.org.il/verse/neuvo/?cit=";
+push_buttons.php:        $kURL="https://hatanach.geulah.org.il/verse/neuvo/?key=";
+sedarim_verse.php:#    $citurl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?verse=".$cit."'/>(".$cit.")</a>";
+sedarim_verse.php:#    $hebciturl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?verse=".$cit."'/>".$hebcitation."</a>";
+sedarim_verse.php:#    $keyurl="<a target = '_blank' href='https://hatanach.geulah.org.il/verse/neuvo/?key=".$key."'/>VerseKey:".$key."</a>";
+sedarim_verse.php:#         $high_url="https://hatanach.geulah.org.il/verse/neuvo/?verse=" . $cit;
+text_header.php:    $target="https://hatanach.geulah.org.il/verse/neuvo/?";
+verse_get.php:if (!defined('home_url')) define('home_url',"https://hatanach.geulah.org.il/verse/neuvo/");
